@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="Aula1.Jogo.Tec1">
+  <grid id="27dc6" binding="Tecnologia1" layout-manager="GridLayoutManager" row-count="9" column-count="16" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="875" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="e4e67" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="16" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Arial Black" size="20"/>
+          <text value="Qual é a principal função de um firewall em um sistema de computador?"/>
+        </properties>
+      </component>
+      <vspacer id="4f77a">
+        <constraints>
+          <grid row="8" column="0" row-span="1" col-span="16" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="25f54">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="16" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="ae0cf">
+        <constraints>
+          <grid row="2" column="15" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="8020b" class="javax.swing.JButton" binding="aAumentarAVelocidadeButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="13" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="A)  Aumentar a velocidade da internet"/>
+        </properties>
+      </component>
+      <vspacer id="c77e4">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="cbbae">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <vspacer id="538cb">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="14" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="b63bf" class="javax.swing.JButton" binding="bCriptografarDadosSensíveisButton" default-binding="true">
+        <constraints>
+          <grid row="3" column="13" row-span="1" col-span="2" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="B) Criptografar dados sensíveis"/>
+        </properties>
+      </component>
+      <component id="f9ca2" class="javax.swing.JButton" binding="dOtimizarODesempenhoButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="13" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="D) Otimizar o desempenho da CPU"/>
+        </properties>
+      </component>
+      <component id="8b5c2" class="javax.swing.JButton" binding="cProtegerContraAcessosButton" default-binding="true">
+        <constraints>
+          <grid row="6" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="C) Proteger contra acessos não autorizados"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
